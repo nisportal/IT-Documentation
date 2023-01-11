@@ -50,8 +50,9 @@ The following guidelines will be used to create documentation templates for each
 
 - Purpose - what are you trying to achieve, and not to achieve with this document. Scope and non-scope statements benefit not only the reader but also the writer. While writing, if the contents of your document drifts away from the purpose (or goes into the non-scope statement), then you must either refocus your document or modify your scope statement. When reviewing, delete any sections that don't help satisfy the scope statement.
 
-scope statement: This document describes the design of the Github project; IT-Maintenance.
-non-scope statement: This document does not describe the technical design for execution with Github Actions.
+*scope statement*: This document describes the design of the Github project; IT-Maintenance
+
+*non-scope statement*: This document does not describe the technical design for execution with Github Actions.
 
 - Table of Contents - The overview of the content written in the document.
 
