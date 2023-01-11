@@ -8,9 +8,9 @@ The content types needs to encompass all types of documentation used by IT.
 
 ## Technical documentation
 - Architectural overview
-- infrastructure diagrams
-- Technical install/config guides
-- Product Manuals
+- Infrastructure diagrams
+- Technical installation guides
+- Technical configuration guides
 - SDK/API documentation
 
 ## Support documentation
