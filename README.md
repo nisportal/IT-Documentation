@@ -43,7 +43,11 @@ When is it due and what format will it be in? Technical documentation is as much
 
 # Concerns with the current documentation state
 - even though the different applications, projects etc. many similarities, the documentation structures does not.
+
 - where content was put often depends on who is creating it than on on what it is about
+
 - The current situation makes it very difficult for a new team member to find the way around the documentation on his/her own. It also makes it more difficult to provide operational support by people less up-to-date about our systems
+
 - A lot of information is outdated. Often due to the fact that is was project related and the project has long passed, but also because there is no way to effectively review existing documentation
+
 - our current documentation is badly segmented. For example a single document contains part user documentation, part technical documentation and part infrastructure
