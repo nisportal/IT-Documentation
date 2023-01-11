@@ -1,4 +1,5 @@
 # Structuring
+
 ## Pre-requisites
 - It should be uniform and recognizable: a team member should immediately find his/her way without needing extra explanation
 
