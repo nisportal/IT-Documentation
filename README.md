@@ -1,10 +1,9 @@
 # IT Documentation plan
 
-This project
-
 [Microsoft Project](https://project.microsoft.com/NordicInsuranceSoftware.onmicrosoft.com/en-US#/taskgrid?projectId=779e2f8a-f11a-4c11-a563-01bc6506ff53)
 
 ## End Goal
+Our end goal is to have a very well segmented documentation with a clear cut between content types, audience and scopes. A structure where we always know where to find relevent information - by searching for it on Docusaurus.
 
 <br/>
 
