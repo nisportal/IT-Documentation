@@ -36,25 +36,25 @@ The following content types needs to encompass all types of documentation used b
 The following guidelines will be used to create documentation templates for each content types
 
 ### Required content in all documents
-- Product name - What product or service is the document written for
+- **Product name** - What product or service is the document written for
 
-- Version - The latest version of the document
+- **Version** - The latest version of the document
 
-- Last updated - The date when the document was last updated
+- **Last updated** - The date when the document was last updated
 
-- Author - The writer or contributors 
+- **Author** - The writer or contributors 
 
-- Required Knowledge (Pre-requisites) - What pre-existing knowledge is required to be able to understand and use the guidance provided.
+- **Required Knowledge** (Pre-requisites) - What pre-existing knowledge is required to be able to understand and use the guidance provided.
 
-- Target Audience - The business roles or audience the document is aimed at 
+- **Target Audience** - The business roles or audience the document is aimed at 
 
-- Purpose - what are you trying to achieve, and not to achieve with this document. Scope and non-scope statements benefit not only the reader but also the writer. While writing, if the contents of your document drifts away from the purpose (or goes into the non-scope statement), then you must either refocus your document or modify your scope statement. When reviewing, delete any sections that don't help satisfy the scope statement.
+- **Purpose** - what are you trying to achieve, and not to achieve with this document. Scope and non-scope statements benefit not only the reader but also the writer. While writing, if the contents of your document drifts away from the purpose (or goes into the non-scope statement), then you must either refocus your document or modify your scope statement. When reviewing, delete any sections that don't help satisfy the scope statement.
 
-*scope statement*: This document describes the design of the Github project; IT-Maintenance
+    **scope statement**: This document describes the design of the Github project; IT-Maintenance
 
-*non-scope statement*: This document does not describe the technical design for execution with Github Actions.
+    **non-scope statement**: This document does not describe the technical design for execution with Github Actions.
 
-- Table of Contents - The overview of the content written in the document.
+- **Table of Contents** - The overview of the content written in the document.
 
 
 ### End user documentation
