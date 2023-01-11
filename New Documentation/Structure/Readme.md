@@ -9,6 +9,11 @@
 
 - It should be reliable: if a certain type of information is not available in the expected location, this should mean it does not exist
 
+- no spaces in folder or file names
+
+- Avoid Broad And Redundant Folder Names
+
+
 ## Verification - how to verify that the structure is good
 - If I'm a new member joining the team, how can I get started on a specific task for a particular application or solution?
 
@@ -27,3 +32,7 @@
 - Provide the answers to the verification questions
 
 - Being able to convert all existing documentation into the new structure
+
+
+# Proposed Folder Structure
+**Prerequisites** - Build Out A Subfolder Structure And Template (Even If The Subfolders Are Empty)
