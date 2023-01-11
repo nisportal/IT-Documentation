@@ -5,24 +5,20 @@
 ## End Goal
 Our end goal is to have a very well segmented documentation with a clear cut between content types, audience and scopes. A structure where we always know where to find relevent information - by searching for it on Docusaurus.
 
-<br/>
 
 ## Mapping of existing resources
 What’s currently out there?  Are there old, outdated versions that need to be deleted? Do a quick audit and find anything and everything.
 
 [Link to where we currently have written documentation](/Current%20Documentation/readme.md)
 
-<br/>
 
 ## Outline Topics and sub topics
 What topics and subtopics will we be covering in our documentation? Think of this as a table of contents and try to list out every major section and subsection
 
-<br/>
 
 ## Tools and management
 What software, tools, will be used besides Github and Docusaurus to create and manage the documentation?
 
-<br/>
 
 ## Ignoring irellevant Documentation
 - This documentation is no longer relevant, or maybe even obsolete, could be be kept for reference for historical purposes (like meeting notes)
@@ -33,7 +29,6 @@ What software, tools, will be used besides Github and Docusaurus to create and m
 
 The new structure should group content as much as possible, and the relevancy of the documentation that is relevent "today" should be immediately obvious.
 
-<br/>
 
 ## Deadline and final delivery
 When is it due and what format will it be in? Technical documentation is as much about structure and delivery as it is content. And knowing how the content will be presented before we start will tell us what we need and where to put your efforts.
