@@ -1,26 +1,36 @@
 ***
-*Product Name:* Monthly Maintenance Automation
+*Product Name:* LAPS serverless
 
-*Version:* 1.0.1
+*Version:* 1.0.0
 
 *Last updated:* 11/01/2022
 
 *Author:* Sebastian Grigoleit
 
-*Required Knowledge:* Github Actions
+*Required Knowledge:* Windows server OS, Windows 10/11, Intune, PowerShell, Azure Function Apps, Azure Key Vault
 
-*Target audience:* IT Support, IT Admins
-
-*Tags:*
+*Target audience:* IT Department
 
 ***
 
-- Purpose
-    - example: The purpose of this document is to outline the technical design of the "IT Maintenance" project. This document is not intended to address the functionality of Github Actions..
-Actions.       
-- Target audience
-    - example: IT-Support, Software Developer, IT Admin, DevOps Engineer
-- Product name
-    - example: "Maintenance Automation"
-- Contributors 
-    - example: FirstName LastName
+## Table of Contents
+1. [Purpose](#Purpose)
+2. [Scope](#Scope)
+3. [Definitions](#Definitions)
+4. [Procedures](#Procedures)
+5. [Resources](#Resources)
+
+***
+# Purpose
+Clearly state the objective of the procedure here
+
+# Scope
+ Define the boundaries of the procedure here in terms of precesses, departments, roles, locations, equipment etc. whats in scope, and what is out of scope
+# Definitions
+What words or references are used in this document that the readers may not understand
+
+# Procedures
+Describe the process in detail using flow charts and/or hierarchical checklists 
+
+# Resources
+Include references and links to relevant material which may be helpful for executing the process 

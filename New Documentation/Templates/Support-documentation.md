@@ -1,29 +1,36 @@
 ***
-*Product Name:* Monthly Maintenance Automation
+*Product Name:* Recycle Application Pool
 
-*Version:* 1.0.1
+*Version:* 1.0.0
 
 *Last updated:* 11/01/2022
 
 *Author:* Sebastian Grigoleit
 
-*Required Knowledge:* Github Actions
+*Required Knowledge:* Windows Server OS, IIS
 
-*Target audience:* IT Support, IT Admins
-
-*Tags:*
+*Target audience:* IT Admins, IT Support
 
 ***
 
-- Purpose
-    - example: The purpose of this document is to provide a guide on how to create a new user account with a custom NIS PowerApp.
-- Required Knowledge
-    - example: This document assumes that you are familiar with the process for creating new employees in NIS        
-- Target audience
-    - example: IT-Support
-- Product name
-    - example: Employee Menu (IT)
-- Documentation Version 
-    - example: 1.0
-- Contributors 
-    - example: FirstName LastName
+## Table of Contents
+1. [Purpose](#Purpose)
+2. [Scope](#Scope)
+3. [Definitions](#Definitions)
+4. [Procedures](#Procedures)
+5. [Resources](#Resources)
+
+***
+# Purpose
+Clearly state the objective of the procedure here
+
+# Scope
+ Define the boundaries of the procedure here in terms of precesses, departments, roles, locations, equipment etc. whats in scope, and what is out of scope
+# Definitions
+What words or references are used in this document that the readers may not understand
+
+# Procedures
+Describe the process in detail using flow charts and/or hierarchical checklists 
+
+# Resources
+Include references and links to relevant material which may be helpful for executing the process 

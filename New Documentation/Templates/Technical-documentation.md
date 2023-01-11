@@ -1,29 +1,36 @@
 ***
-*Product Name:* Monthly Maintenance Automation
+*Product Name:* Kibana on Docker
 
-*Version:* 1.0.1
+*Version:* 1.0.0
 
 *Last updated:* 11/01/2022
 
 *Author:* Sebastian Grigoleit
 
-*Required Knowledge:* Github Actions
+*Required Knowledge:* Github Actions, Docker, Kibana, Elastic, Keeper
 
-*Target audience:* IT Support, IT Admins
-
-*Tags:*
+*Target audience:* IT Admins, DevOps Engineer
 
 ***
 
-- Purpose
-    - example: The purpose of this document is to provide a technical walkthrough of the "Kibana on Docker" solution.
-- Required Knowledge
-    - example: This document assumes that you understand Azure Logic Apps, PowerShell, Github Actions        
-- Target audience
-    - example: IT Admin, DevOps Engineer
-- Product name
-    - example: Kibana on Docker
-- Documentation Version 
-    - example: 1.0        
-- Contributors 
-    - example: FirstName LastName
+## Table of Contents
+1. [Purpose](#Purpose)
+2. [Scope](#Scope)
+3. [Definitions](#Definitions)
+4. [Procedures](#Procedures)
+5. [Resources](#Resources)
+
+***
+# Purpose
+Clearly state the objective of the procedure here
+
+# Scope
+ Define the boundaries of the procedure here in terms of precesses, departments, roles, locations, equipment etc. whats in scope, and what is out of scope
+# Definitions
+What words or references are used in this document that the readers may not understand
+
+# Procedures
+Describe the process in detail using flow charts and/or hierarchical checklists 
+
+# Resources
+Include references and links to relevant material which may be helpful for executing the process 
