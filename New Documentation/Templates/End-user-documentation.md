@@ -1,5 +1,5 @@
 ***
-*Product Name:* Monthly Maintenance Automation
+*Product Name:* Monthly Maintenance
 
 *Version:* 1.0.1
 
@@ -7,24 +7,30 @@
 
 *Author:* Sebastian Grigoleit
 
-*Required Knowledge:* Github Actions
+*Required Knowledge:* Github Actions, Azure Automation Update Management, Windows Server OS
 
 *Target audience:* IT Support, IT Admins
 
-*Tags:*
-
 ***
-
-## Purpose
-The purpose of this document is to outline the technical design of the "IT-Maintenance" Github repo so that members of the IT team knows how to execute monthly maintenance. This document is not intended to address the use of Git, Github Actions or the understanding of CI/CD
 
 ## Table of Contents
-1. HTML Structure
-2. CSS Files
-3. Javascript Files
-4. PSD Files
-5. Theme Styles
-6. Tweaking Javascript
-7. Tweaking CSS
-8. Browser Compatibility
+1. [Purpose](#Purpose)
+2. [Scope](#Scope)
+3. [Definitions](#Definitions)
+4. [Procedures](#Procedures)
+5. [Resources](#Resources)
+
 ***
+# Purpose
+Clearly state the objective of the procedure here
+
+# Scope
+ Define the boundaries of the procedure here in terms of precesses, departments, roles, locations, equipment etc. whats in scope, and what is out of scope
+# Definitions
+What words or references are used in this document that the readers may not understand
+
+# Procedures
+Describe the process in detail using flow charts and/or hierarchical checklists 
+
+# Resources
+Include references and links to relevant material which may be helpful for executing the process 
