@@ -57,84 +57,18 @@ The following guidelines will be used to create documentation templates for each
 - **Table of Contents** - The overview of the content written in the document.
 
 
-### End user documentation
-- Purpose
-    - example: The purpose of this document is to outline the technical design of the "Customer Job File Sanitization" project. This document is not intended to address the installation and configuration of..
-- Required Knowledge
-    - example: This document assumes that you understand Git and the fundamentals of CI/CD        
-- Target audience
-    - example: IT-Support, Software Developer, IT Admin, DevOps Engineer
-- Product name
-    - example: Maintenance Automation
-- Documentation Version 
-    - example: 1.0
-- Contributors 
-    - example: FirstName LastName
+## example templates
 
-### Technical documentation 
-- Purpose
-    - example: The purpose of this document is to provide a technical walkthrough of the "Kibana on Docker" solution.
-- Required Knowledge
-    - example: This document assumes that you understand Azure Logic Apps, PowerShell, Github Actions        
-- Target audience
-    - example: IT Admin, DevOps Engineer
-- Product name
-    - example: Kibana on Docker
-- Documentation Version 
-    - example: 1.0        
-- Contributors 
-    - example: FirstName LastName
+[End user documentation example template](./Templates/End-user-documentation.md)
 
-### Support documentation
-- Purpose
-    - example: The purpose of this document is to provide a guide on how to create a new user account with a custom NIS PowerApp.
-- Required Knowledge
-    - example: This document assumes that you are familiar with the process for creating new employees in NIS        
-- Target audience
-    - example: IT-Support
-- Product name
-    - example: Employee Menu (IT)
-- Documentation Version 
-    - example: 1.0
-- Contributors 
-    - example: FirstName LastName
 
-### Project related documentation
-- Purpose
-    - example: The purpose of this document is to outline the technical design of the "IT Maintenance" project. This document is not intended to address the functionality of Github Actions..
-Actions.       
-- Target audience
-    - example: IT-Support, Software Developer, IT Admin, DevOps Engineer
-- Product name
-    - example: "Maintenance Automation"
-- Contributors 
-    - example: FirstName LastName
+[Technical documentation example template](./Templates/Technical-documentation.md)
 
-### General team documentation
-- Purpose
-    - example: The purpose of this document is to analyze if we can save money by running automated cleanup
-- Required Knowledge
-    - example: This document assumes that you understand Powershell and Windows Server OS     
-- Target audience
-    - example: IT Admin, HoD
-- Product name
-    - example: "Automated Cleanup in Customer environments"
-- Contributors 
-    - example: FirstName LastName, firstName lastName
 
-# Brainstorming
-01 - Roadmap - All things related to planning and specifications.
-02 - Development - Groups everything that someone needs to know to be able to develop on the application/solution.
-01 - Process
-02 - Getting started
-03 - Frameworks & tools
-04 - Conventions
-05 - Technical documentation
-03 - Work in progress 
-04 - Release notes
-05 - Maintenance & Support
-01 - Infrastructure
-02 - Deploy guide
-03 - Technical support
-04 - Accounts
-05 - Who's who    
+[Support documentation example template](./Templates/Support-documentation.md)
+
+
+[Project related documentation](./Templates/Project-related-documentation.md)
+
+
+[General team documentation](./Templates/General-team-documentation.md) 

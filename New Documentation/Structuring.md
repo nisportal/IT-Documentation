@@ -7,7 +7,7 @@
 
 - It should be reliable: if a certain type of information is not available in the expected location, this should mean it does not exist
 
-# Structure verification - how to verify if the proposed solution
+# Structure verification - how to verify the proposed solution
 - If I'm a new member joining the team, how can I get started on a specific task for a particular application or solution?
 
 - If I'm an end user, where can I find information on how to do something?
