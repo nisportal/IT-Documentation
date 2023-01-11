@@ -11,6 +11,8 @@
 
 *Target audience:* IT Admins, DevOps Engineer
 
+*Tags:*
+
 ***
 
 ## Table of Contents

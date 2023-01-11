@@ -11,6 +11,8 @@
 
 *Target audience:* IT Support, IT Admins
 
+*Tags:*
+
 ***
 
 ## Table of Contents

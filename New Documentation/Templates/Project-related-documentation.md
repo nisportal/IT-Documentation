@@ -11,6 +11,8 @@
 
 *Target audience:* IT Department
 
+*Tags:*
+
 ***
 
 ## Table of Contents
