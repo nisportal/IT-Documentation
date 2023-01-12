@@ -11,7 +11,7 @@
 
 *Target audience:* IT Support, IT Admins, PM's, RM's
 
-*Tags:* Power Apps, Customer Onboarding, Disable User
+*Tags:* Power Apps, Customer Offboarding, Disable User
 
 ***
 

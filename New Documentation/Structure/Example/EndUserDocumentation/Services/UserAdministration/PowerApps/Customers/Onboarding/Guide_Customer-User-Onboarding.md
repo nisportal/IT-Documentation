@@ -24,7 +24,7 @@
 
 ***
 # Purpose
-The purpose of this document is to provide clear guidance on how to offboard a customer user account with our Power App [Create Customer Account](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/e348966d-8e83-4eb4-ba06-ee1500e3b3c8?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689). 
+The purpose of this document is to provide clear guidance on how to onboard a customer user account with our Power App [Create Customer Account](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/e348966d-8e83-4eb4-ba06-ee1500e3b3c8?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689). 
 
 # Scope
 The scope of this document is limited to the steps required to create a new user account for any customer. The process itself is not in the scope of this document
