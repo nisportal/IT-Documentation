@@ -1,5 +1,5 @@
 ***
-*Name:* Customer User Administration - Offboarding User Guide
+*Name:* Customer User Administration - Enable Account Guide
 
 *Version:* 0.1.0
 
@@ -11,7 +11,7 @@
 
 *Target audience:* IT Support, IT Admins, PM's, RM's
 
-*Tags:* Power Apps, Customer Onboarding, Disable User
+*Tags:* Power Apps, Enable account
 
 ***
 
@@ -24,14 +24,12 @@
 
 ***
 # Purpose
-The purpose of this document is to provide clear guidance on how to offboard a customer user account with our Power App [Customer User Administration](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/66961346-8949-4940-a5f2-9bda7d02ed1f?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689). 
+The purpose of this document is to provide clear guidance on how to onboard a customer user account with our Power App [Customer User Administration](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/66961346-8949-4940-a5f2-9bda7d02ed1f?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689). 
 
 # Scope
-The scope of this document is limited to the steps required to closing down a user account for any customer. The process itself is not in the scope of this document
+The scope of this document is limited to the steps required to enable an already created user account for any customer. The process itself is not in the scope of this document
 # Definitions
 Power Apps - Refers to Microsoft Power Apps
-
-Offboarding - Disabling a user account
 
 # Procedures
 
@@ -43,11 +41,11 @@ Offboarding - Disabling a user account
 3. Once you have selected the domain, click the drop down menu in the upper right corner and select the customer which the user account belongs to. Once you select a customer, the users will be displayed below, you can either scroll or use the search bar to locate the user account. Click the account
 ![Select Customer](/src/CustomerUserAdministration-Cust-SelectCustomer.png)
 
-4.  Tick "Disable User in AD", under the Active Direcroty header as shown below, then click Make Changes
-![Disable User](/src/CustomerUserAdministration-Cust-SelectCustomer-Disable.png)
+4.  Tick "Enable User in AD", under the Active Direcroty header as shown below, then click Make Changes
+![Enable User](/src/CustomerUserAdministration-Cust-SelectCustomer-Enable.png)
 
 5. Click Confirm to apply the change
-![Make Changes](/src/CustomerUserAdministration-Cust-SelectCustomer-Disable-Confirm.png)
+![Make Changes](/src/CustomerUserAdministration-Cust-SelectCustomer-Enable-Confirm.png)
 
 6. Wait for the change to take effect
 ![Wait](/src/CustomerUserAdministration-Cust-SelectCustomer-Disable-Wait.png)
@@ -64,3 +62,4 @@ Offboarding - Disabling a user account
 ![Completed](/src/CustomerUserAdministration-Cust-SelectCustomer-ListUpdated.png)
 # Resources
 [Customer User Administration Power App](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/66961346-8949-4940-a5f2-9bda7d02ed1f?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689)
+[Microsoft Power Apps]()
