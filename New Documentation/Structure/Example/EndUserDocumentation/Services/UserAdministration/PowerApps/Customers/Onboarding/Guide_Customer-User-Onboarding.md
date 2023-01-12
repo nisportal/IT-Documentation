@@ -44,10 +44,8 @@ Onboarding - Creating a new user account
 ![Fill Details](/src/CustomerUserCreation-Filled.png)
 
 5. Click the checkmark in the upper right corner to start the user creation
-![Make Changes](/src/CustomerUserAdministration-Cust-SelectCustomer-Disable-Confirm.png)
 
 6. Once the user has been created, both the customer and the user who requested the account will be notified on email.
-![Wait](/src/CustomerUserAdministration-Cust-SelectCustomer-Disable-Wait.png)
 
 # Resources
 [Create Customer Account Power App](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/66961346-8949-4940-a5f2-9bda7d02ed1f?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689)
