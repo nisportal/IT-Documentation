@@ -7,7 +7,7 @@
 
 *Author:* Sebastian Grigoleit
 
-*Required Knowledge:* 
+*Required Knowledge:* N/A
 
 *Target audience:* IT Support, IT Admins, PM's, RM's
 
