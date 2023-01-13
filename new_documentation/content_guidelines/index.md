@@ -31,7 +31,7 @@ The content types needs to encompass all types of documentation used by IT.
 
 # Guidelines
 
-## Docusaurus documentation rules
+## Docusaurus style guide
 https://internal-docs.niscloud.com/docs/processes/releases/documentation/nordic/
 
 ## Required in all documents
