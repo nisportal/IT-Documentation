@@ -7,9 +7,9 @@ Our end goal is to have a very well segmented documentation with a clear cut bet
 
 
 ## Mapping of existing resources
-What’s currently out there?  Are there old, outdated versions that need to be deleted? Do a quick audit and find anything and everything.
+What’s currently out there?  Are there old, outdated versions that need to be deleted or archived? Do a quick audit and find anything and everything.
 
-[Link to where we currently have written documentation](/Current%20Documentation/readme.md)
+[Link to where we currently have written documentation - work in progress](/Current%20Documentation/readme.md)
 
 
 ## Outline Topics and sub topics
@@ -17,9 +17,10 @@ What topics and subtopics will we be covering in our documentation? Think of thi
 
 
 ## Tools and management
-What software, tools, will be used besides Github and Docusaurus to create and manage the documentation?
-- https://github.com/marketplace/contour-documentation
-- 
+Software, tools, services etc. which will be used to manage and create documentation, besides Github and Docusaurus.
+- Neupart - Compliance Documentation
+- Teams / OneDrive - ITIL Process Documentation
+- General team documentation - Reports, process descriptions (reference doc), meeting notes etc.
 
 
 ## Ignoring irellevant Documentation
