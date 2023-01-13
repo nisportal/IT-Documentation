@@ -1,5 +1,7 @@
 # Content Types
-The content types needs to encompass all types of documentation used by IT.
+The content types needs to encompass all types of documentation used by IT. The categories below are examples.
+
+Not all content has to live in Github and Docusaurus, IT processes could be placed in Microsoft Teams, compliance documents in Neupart, contracts in x.. etc. We should however keep reference documentation (index) so IT members only need to turn to a docusaurus site and search to find a solution/answer. This will truly help us implement the most efficient Service Desk (ITIL)
 
 ## End user documentation
 - User manuals

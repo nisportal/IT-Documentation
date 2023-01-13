@@ -1,4 +1,5 @@
-# Locations where IT has documentation:
+# Locations where IT has documentation today:
+this list is work is not complete
 
 ## Github
 ### https://github.com/nisportal/IT-Infrastructure
