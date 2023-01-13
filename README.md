@@ -17,7 +17,7 @@ What topics and subtopics will we be covering in our documentation? Think of thi
 
 
 ## Tools and management
-Software, tools, services etc. which will be used to manage and create documentation, besides Github and Docusaurus.
+Software, tools, services etc. which will be used to manage and create documentation, besides Github and Docusaurus. Reference documents should be kept in Docusaurus with links or rerferences to external documentation
 - Neupart - Compliance Documentation
 - Teams / OneDrive - ITIL Process Documentation
 - General team documentation - Reports, process descriptions (reference doc), meeting notes etc.
