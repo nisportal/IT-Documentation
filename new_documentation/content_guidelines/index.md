@@ -58,17 +58,17 @@ https://internal-docs.niscloud.com/docs/processes/releases/documentation/nordic/
 
 To ensure we have a uniform way of writing documentation, all guidelines written here should be reflected in the relevant  templates.
 
-[End user documentation](./Templates/End-user-documentation.md)
+[End user documentation](../templates/end_user_documentation.md)
 
 
-[Technical documentation](./Templates/Technical-documentation.md)
+[Technical documentation](../templates/technical_documentation.md)
 
 
-[Support documentation](./Templates/Support-documentation.md)
+[Support documentation](../templates/support_documentation.md)
 
 
-[Project related documentation](./Templates/Project-related-documentation.md)
+[Project related documentation](../templates/project_related_documentation.md)
 
 
-[General team documentation](./Templates/General-team-documentation.md) 
+[General team documentation](../templates/general_team_documentation.md) 
 
