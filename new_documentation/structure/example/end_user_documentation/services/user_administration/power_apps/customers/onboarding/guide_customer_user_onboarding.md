@@ -38,10 +38,10 @@ Onboarding - Creating a new user account
 1. Open the Power App by clickling here --> [Customer User Administration](https://apps.powerapps.com/play/e/default-248b066d-c6fc-4b1a-afba-4138e54e2689/a/66961346-8949-4940-a5f2-9bda7d02ed1f?tenantId=248b066d-c6fc-4b1a-afba-4138e54e2689).
 
 2. Select the domain where the user account is located from the User List. Click the + in the upper right corner to add a new user
-![Home Page](/src/CustomerUserCreation.png)
+![Home Page](../assets/CustomerUserAdministration.png)
 
 3.  Select domain, fill out First name, Last Name, select Customer and type in the customer email address, the login details will be sent to this address. Dialog can be selected when creating accounts in Cust.
-![Fill Details](/src/CustomerUserCreation-Filled.png)
+![Fill Details](../assets/CustomerUserCreation-Filled.png)
 
 5. Click the checkmark in the upper right corner to start the user creation
 
