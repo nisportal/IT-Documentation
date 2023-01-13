@@ -35,4 +35,4 @@
 
 
 # Proposed Folder Structure
-**Prerequisites** - Build Out A Subfolder Structure And Template (Even If The Subfolders Are Empty)
+[Link to example folder structure](../structure/example/)
