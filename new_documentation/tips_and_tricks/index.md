@@ -1,6 +1,6 @@
 # Writing good documentation
 
-![GoodDoc](../src/Elements-of-user-documentation.jpg)
+![GoodDoc](./assets/Elements-of-user-documentation.jpg)
 
 ### Simple Language
 When it comes to any form of technical writing, perhaps the most important thing is the simplicity of language.
