@@ -133,5 +133,85 @@ All Flows can be found [here](https://make.powerapps.com/environments/Default-24
 | Add customer e-mail to the account | CustomerChange & CustomerUpdate_new
 | Sync user | update_sharepoint_list_new, CustomerUpdate_new
 
+## 6. Scripts and flows
+
+Below is a list of scripts used and the logic in which they are triggered
+
+**CreateCustomerUser.ps1**
+
+This script is for creating account for customers in the cust.nisportal.com Domain. Runbook is located in Azure Flow is started in The Customer User Administration App - when a new Account is created the following flow is started:
+
+1. User created in PowerApp [Link](https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/e348966d-8e83-4eb4-ba06-ee1500e3b3c8?q=Power%20Apps&count=1 "Customer User Administration - PowerApp" )
+2. Information Saved in SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/New%20Customer%20User/AllItems.aspx "New Customer User - SharePoint list" )
+3. CustomerCreate Flow is started [Link](https://make.powerapps.com/environments/Default-248b066d-c6fc-4b1a-afba-4138e54e2689/logicflows?utm_source=PAMarketing&utm_medium=header&utm_campaign=signin "CreateCustomerUser - Flow" )
+4. Runbook is started [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CreateCustomerUser/overview "CreateCustomerUser - Runbook" )
+5. User is created in AD
+6. Dialog user is created - If marked for creation in the app (set to true)
+7. Information mail with login credentials is sent to the user, and to the creator of the user
+
+**CustomerChange.ps1**
+
+This script is used in the [Customer User Administration App](https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/66961346-8949-4940-a5f2-9bda7d02ed1f?q=Power%20Apps&count=1 "Customer User Administration - PowerApp"), when a employee is making any change like Password reset or deactivate account this script is activated.
+
+1. Change made in the PowerApp [Link](https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/e348966d-8e83-4eb4-ba06-ee1500e3b3c8?q=Power%20Apps&count=1 "Customer User Administration - PowerApp" )
+2. CustomerChange Flow is started [Link](https://make.powerapps.com/environments/Default-248b066d-c6fc-4b1a-afba-4138e54e2689/logicflows?utm_source=PAMarketing&utm_medium=header&utm_campaign=signin "CustomerChange - Flow" )
+3. Runbook is started  [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUpdate/overview "CustomerChange - Runbook" )
+4. The change is made in AD/Dialog depending of the change
+5. Mail with information is sent to the user and creator is needed (like password reset)
+
+**CustomerUpdate.ps1**
+
+This script is for updating information in the SharePoint list, when the flow is started in the PowerApp information is updated in the List with information from AD and Dialog
+
+1. The Sync User button is clicked on in the PowerApp [Link](https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/e348966d-8e83-4eb4-ba06-ee1500e3b3c8?q=Power%20Apps&count=1 "Customer User Administration - PowerApp" )
+
+2. CustomerUpdate Flow is started [Link](https://make.powerapps.com/environments/Default-248b066d-c6fc-4b1a-afba-4138e54e2689/logicflows?utm_source=PAMarketing&utm_medium=header&utm_campaign=signin "CustomerUpdate - Flow" )
+
+3. Runbook is started [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUpdate/overview "CustomerUpdate - Runbook" )
+
+4. Information is updated in the SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/Customer%20Portal/AllItems.aspx "Customer User Administration - List" )
+
+**CustomerUserAdministration_CUST.ps1**
+
+This script is used to fetch information from AD and Dialog and save it in a SharePoint List
+The script is scheduled to run every day at 04:00 AM in an Azure automation account.
+
+Azure Runbook [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUserAdministration_CUST/overview "CustomerUserAdministration_CUST - Runbook" )
+Schedule [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/schedules "CustomerUserAdministration - Schedule" )
+Cust SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/Customer%20Portal/AllItems.aspx "Customer User Administration - List" )
+
+**CustomerUserAdministration_NC-AU.ps1**
+
+This script is used to fetch information from AD and Dialog and save it in a SharePoint List
+The script is scheduled to run every day at 04:00 AM in an Azure automation account.
+
+Azure Runbook [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUserAdministration_NC-AU/overview "CustomerUserAdministration_NC-AU - Runbook" )
+
+Schedule [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/schedules "CustomerUserAdministration - Schedule" )
+
+NC-AU SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/Customer%20User%20Administration%20NCAU/AllItems.aspx "Customer User Administration NC-AU - List" )
+
+**CustomerUserAdministration_NC-GROUP.ps1**
+
+This script is used to fetch information from AD and Dialog and save it in a SharePoint List
+The script is scheduled to run every day at 04:00 AM in an Azure automation account.
+
+Azure Runbook [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUserAdministration_NC-Group/overview "CustomerUserAdministration_NC-Group - Runbook" )
+
+Schedule [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/schedules "CustomerUserAdministration - Schedule" )
+
+NC-Group SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/Customer%20User%20Administration%20NCGroup/AllItems.aspx "Customer User Administration NC-Group - List" )
+
+**CustomerUserAdministration_NC-ZC.ps1**
+
+This script is used to fetch information from AD and Dialog and save it in a SharePoint List
+The script is scheduled to run every day at 04:00 AM in an Azure automation account.
+
+Azure Runbook [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/runbooks/CustomerUserAdministration_NC-ZC/overview "CustomerUserAdministration_NC-ZC - Runbook" )
+
+Schedule [Link](https://portal.azure.com/#@NordicInsuranceSoftware.onmicrosoft.com/resource/subscriptions/ecd44859-06e3-4231-9db8-c6d26070358f/resourceGroups/NISHQ-Management/providers/Microsoft.Automation/automationAccounts/NISHQ-Management/schedules "CustomerUserAdministration - Schedule" )
+
+NC-ZC SharePoint List [Link](https://nordicinsurancesoftware.sharepoint.com/sites/UserManagement/Lists/Customer%20User%20Administration%20NCZC/AllItems.aspx "Customer User Administration NC-ZC - List" )
+
 # Resources
 
