@@ -19,7 +19,6 @@
 2. [Scope](#Scope)
 3. [Definitions](#Definitions)
 4. [Procedures](#Procedures)
-5. [FAQ](#FAQ)
 5. [Resources](#Resources)
 
 # Purpose
@@ -121,20 +120,18 @@ All Flows can be found [here](https://make.powerapps.com/environments/Default-24
 * Password Expiry Date
 
 ## 5. Power App Functions
-| Function Name   |   Flow in use   |
+| Function name   |   Flows in use by function   |
 |----------|:-------------:|
-| Reset Password | CustomerChange & CustomerUpdate_new
+| Reset password | CustomerChange & CustomerUpdate_new
 | Disable account in AD | CustomerChange & CustomerUpdate_new
-| Activate accounts in AD | CustomerChange & CustomerUpdate_new
+| Activate account in AD | CustomerChange & CustomerUpdate_new
 | Create user in Dialog | CustomerChange & CustomerUpdate_new
 | Activate user in Dialog | CustomerChange & CustomerUpdate_new
 | Disable user in Dialog | CustomerChange & CustomerUpdate_new
-| Create new user | CustomerChange & CustomerUpdate_new
+| Create new account | CustomerChange & CustomerUpdate_new
 | Export full list of all user accounts | ExportSharepointList
 | Add customer e-mail to the account | CustomerChange & CustomerUpdate_new
-| Sync User | update_sharepoint_list_new, CustomerUpdate_new
-
-# FAQ
+| Sync user | update_sharepoint_list_new, CustomerUpdate_new
 
 # Resources
 
